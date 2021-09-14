@@ -1,17 +1,7 @@
-console.log(12345);
-console.log("kimkimkim");
-// const =  변수 선언, 상수(값이 바뀔 수 없음)
-// let = 변수 선언, 선언 후 업데이트 가능, 15번 줄   //const와 let는 변수의 보호를 위해 만들어짐.
-// var = 초창기부터 있던 변수 선언, 변수 재선언 가능
-// 기본적으로 const/ 필요할 때 let/ var는 지양
-const a = 10;
-const b = 2;
-let myName = " kim";
-console.log(a + b);
-console.log(a * b);
-console.log(a / b);
-console.log("hello" + myName);
-
-myName = "ik soo";
-
-console.log("yout new name is " + myName);
+// data type
+// Boolean = true or false
+// null = 아무것도 없음으로 채움, 자연적으로 발생하지 않음. 변수 안에 어떤 것이 없다는 것을 확실히 하기 위해 씀.
+const amIFat = null;
+let something; //variables는 존재해도 값이 정의되지 않음 / 출력 = undefined
+console.log(amIFat);
+console.log(something);
